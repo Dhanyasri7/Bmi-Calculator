@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="mydiv">
+        <h1>BMI CALCULATOR</h1>
+        <h3>Wanna know your BMI !!<br>** Click Below **</h3>
+        <button onclick="calculateBmi()">CALCULATE BMI</button>
+        <div id="result"></div>
+    </div>
+    <div class="bmi-chart">
+  <h4>BMI Classification Chart</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>BMI Range</th>
+        <th>Category</th>
+        <th>Color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #f4a261">
+        <td>Less than 18.5</td>
+        <td>Underweight</td>
+        <td>🟠</td>
+      </tr>
+      <tr style="background-color: #2a9d8f; color: white">
+        <td>18.5 – 24.9</td>
+        <td>Normal weight</td>
+        <td>🟢</td>
+      </tr>
+      <tr style="background-color: #e9c46a">
+        <td>25 – 29.9</td>
+        <td>Overweight</td>
+        <td>🟡</td>
+      </tr>
+      <tr style="background-color: #e76f51; color: white">
+        <td>30 and above</td>
+        <td>Obese</td>
+        <td>🔴</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
